@@ -1,16 +1,10 @@
 # DeepFace and supporting libraries
-deepface>=0.0.79
-pygame>=2.1.0
-opencv-python>=4.5.0
-numpy>=1.22
-gdown>=4.4.0
-keras>=2.11
-
-# PyTorch with CUDA 12.1
-torch==2.5.1+cu121
-torchvision==0.20.1+cu121
-torchaudio==2.5.1+cu121
---extra-index-url https://download.pytorch.org/whl/cu121
+deepface
+pygame
+opencv-python
+numpy
+gdown
+keras
 
 # Jupyter core and interface
 notebook
