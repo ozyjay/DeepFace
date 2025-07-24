@@ -1,0 +1,45 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.env
+
+# IDE config
+.vscode/
+.idea/
+
+# macOS and Linux hidden files
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+
+# Compiled object files
+*.so
+*.pyd
+
+# DeepFace models (optional)
+.//weights/  # DeepFace will download model weights here
+models/
+
+# Face database (if it's large or sensitive)
+face_db/
+
+# Optional: snapshots or screenshots
+snapshots/
+*.png
+*.jpg
+
+# ONNX runtime cache
+onnxruntime_*_temp/
